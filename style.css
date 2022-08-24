@@ -1,0 +1,39 @@
+body{
+    background-color:cornsilk ;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation:animate__wobble ;
+    color:rgb(6, 77, 77);
+    text-align: center;
+    border: 5px solid burlywood;
+
+}
+p{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+   text-overflow: left;
+   color: rgb(203, 53, 126);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    transition:all 1s;
+}
+img:hover{
+transform: scale(1.1);
+}
